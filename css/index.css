@@ -1,0 +1,79 @@
+nav {
+
+	font-size: 1.3em !important;
+}
+
+
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+
+
+
+
+
+.h3 {
+
+	text-indent: 0.5em;
+}
+
+
+#carpara {
+
+	padding-left: 1.0em;
+	
+
+}
+
+
+#favcars {
+
+
+	padding-left: 1.0em;
+	
+}
+
+
+
+#lst {
+
+	color: red;
+	font-weight: bold;
+	font-family: verdana;
+
+}
+
+#how {
+
+	padding-left: 1.0em;
+
+
+}
+
+
+#bottom {
+
+	font-size: 0.5em !important;
+}

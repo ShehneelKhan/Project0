@@ -1,0 +1,122 @@
+nav {
+
+	font-size: 1.3em !important;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+/*SCSS INHERITANCE*/
+
+.f, .s {
+  font-family: verdana;
+  padding-left: 0.8em;
+  color: blue;
+}
+
+.f {
+  font-size: 300%
+}
+
+.s {
+	font-size: 150%;
+  
+}
+
+/*SCSS VARIABLE*/
+
+ul {
+  	color: #db281f;
+ 
+}
+
+li {
+
+	color: #db281f;
+}
+
+
+
+/*SCSS NESTING*/
+
+#z {
+  font-weight: bold;
+}
+
+#z p {
+  color: blue;
+  padding-left: 1.0em;
+}
+
+
+#lll:hover {
+	color: #cf36e0;
+	background-color: #fcf758;
+}
+
+
+#lll:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+#lll:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.form-control {
+
+	margin-left: 5.0em;
+	width:80%;
+}
+
+input {
+	margin-left: 42%;
+}
+
+
+#bottom4 {
+
+	font-size: 0.5em !important;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+#z {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+ #z {
+    font-size: 30px;
+  }
+}

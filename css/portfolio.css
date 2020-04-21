@@ -1,0 +1,44 @@
+nav {
+
+	font-size: 1.3em !important;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+
+.h3 {
+
+	padding-left: 1.0em;
+	text-decoration: underline;
+	background-color: #c0faf9;
+	color: #1f18ab;
+}
+
+#bottom3 {
+
+	font-size: 0.5em !important;
+}
+
+
